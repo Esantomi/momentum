@@ -32,58 +32,63 @@ img {
     width:max-content;
     height:max-content;
     margin: auto 0;
-    background-color: rgba(0, 0, 0, 0.3);
+    /* background-color: rgba(0, 0, 0, 0.3); */
 }
 
 .header {
-    margin: 12px 12px;
+    margin: 2px 2px;font-family: 'D2Coding';
     display: flex;
     flex-direction: column;
     align-items: flex-end;
     align-self: flex-end;
 }
 
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 20em;
+    width:120em;
+    text-align: center;
+    /* margin: auto 0; */
+}
+
 .todolist {
     display: flex;
     flex-direction: column;
     margin-top: 48px;
-    width: 80%;
-    border: 2px solid deepskyblue;
-    border-radius: 5px;
-    box-shadow: 5px 5px 0px rgba(0, 0, 0, 0.4);
+    width: 20em;
+    height: auto;
+    border: 3px solid deepskyblue;
+    border-radius: 3px;
+    box-shadow: 7px 7px 0px rgba(0, 0, 0, 0.4);
 }
 
 .list-container {
     display: flex;
     flex-direction: column;
     margin-top: 30px;
-    width: 80%;
-    background-color:steelblue;
+    font-size: 24px;
+}
+
+#weather {
+    font-size: 23px;
 }
 
 #clock {
-    font-size: 48px;
+    font-size: 52px;
 }
 
 /* 안녕하세요 ** 님 */
-h3 {
-    font-size: 24px;
+#greeting {
+    font-size: 36px;
 }
 
 #quote {
     display: flex;
     flex-direction: column;
-    margin-top: 30px;
     width: 80%;
-    text-align: center;
     font-size: 24px;
-}
-
-#weather {
-    display: flex;
-    flex-direction: column;
-    margin-top: 30px;
-    width: 80%;
-    text-align: center;
-    font-size: 18px;
 }
