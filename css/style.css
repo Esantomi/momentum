@@ -3,33 +3,62 @@
     display: none;
 }
 
+/* 전체 */
 * {
     font-family: 'D2Coding';
 }
 
-/* 전체 배경 */
 body {
-    color: honeydew;
-    background-color: rgb(218, 126, 126);
     display: flex;           /* 중앙 배치 */
     flex-direction: column;  /* 수직 배치 */
     align-items: center;
-    /* padding: 32px 20px; */
+    color: honeydew;
+}
+
+img {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    z-index: -1;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width:max-content;
+    height:max-content;
+    margin: auto 0;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.header {
+    margin: 12px 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    align-self: flex-end;
 }
 
 .todolist {
     display: flex;
     flex-direction: column;
     margin-top: 48px;
-    width: 15%;
+    width: 80%;
+    border: 2px solid deepskyblue;
+    border-radius: 5px;
+    box-shadow: 5px 5px 0px rgba(0, 0, 0, 0.4);
 }
 
 .list-container {
     display: flex;
     flex-direction: column;
     margin-top: 30px;
-    width: 15%;
-    background-color: slategray;
+    width: 80%;
+    background-color:steelblue;
 }
 
 #clock {
