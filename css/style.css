@@ -3,38 +3,42 @@
     display: none;
 }
 
+* {
+    font-family: 'D2Coding';
+}
+
 /* 전체 배경 */
 body {
     color: honeydew;
     background-color: rgb(218, 126, 126);
     display: flex;           /* 중앙 배치 */
     flex-direction: column;  /* 수직 배치 */
-    padding: 32px 20px;
-}
-
-.login {
-    width: 20%;
-    display: flex;
-    align-self: center;
-    justify-content: space-between;
-    box-sizing: border-box;
+    align-items: center;
+    /* padding: 32px 20px; */
 }
 
 .todolist {
     display: flex;
     flex-direction: column;
     margin-top: 48px;
-    width: 80%;
-    align-self: center;
+    width: 15%;
 }
 
 .list-container {
     display: flex;
     flex-direction: column;
     margin-top: 30px;
-    width: 80%;
-    align-self: center;
+    width: 15%;
     background-color: slategray;
+}
+
+#clock {
+    font-size: 48px;
+}
+
+/* 안녕하세요 ** 님 */
+h3 {
+    font-size: 24px;
 }
 
 #quote {
@@ -42,7 +46,6 @@ body {
     flex-direction: column;
     margin-top: 30px;
     width: 80%;
-    align-self: center;
     text-align: center;
     font-size: 24px;
 }
@@ -52,7 +55,6 @@ body {
     flex-direction: column;
     margin-top: 30px;
     width: 80%;
-    align-self: center;
     text-align: center;
-    font-size: 24px;
+    font-size: 18px;
 }
